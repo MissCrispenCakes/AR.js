@@ -3,7 +3,7 @@
     <head>
         <title>AR.js Hello World Example</title>
         <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-        <script type='text/javascript' src='../../../build/aframe-ar-nft.js'></script>
+        <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/3.4.0/aframe/build/aframe-ar-nft.js'></script>
     </head>
     <body>
     <a-scene
@@ -11,7 +11,7 @@
         arjs='sourceType: webcam; videoTexture: true; debugUIEnabled: false;'
         renderer='antialias: true; alpha: true'>
             <a-camera gps-camera rotation-reader></a-camera>
-            <a-box gps-entity-place='latitude: your-latitude; longitude: your-longitude' color='red' scale='20 20 20'></a-box>
+            <a-box gps-entity-place='latitude: 43.68603; longitude: -79.41419;' color='red' scale='20 20 20'></a-box>
     </a-scene>
     </body>
 </html>
